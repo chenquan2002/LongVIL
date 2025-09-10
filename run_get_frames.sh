@@ -1,6 +1,6 @@
 set -euo pipefail
 
-video_path="/home/chenquan/LongVIL/data/example/example/example_complex.mp4"
+video_path="./data/example/example/example_complex.mp4"
 
 cd "$(dirname "$0")"
 
