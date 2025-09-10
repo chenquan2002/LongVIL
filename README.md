@@ -1,6 +1,3 @@
-# LongVIL: Long-Horizon Visual Imitation Learning via Plan and Code Reflection
-
-
 <div align="center">
 
 # LongVIL: Long-Horizon Visual Imitation Learning via Plan and Code Reflection
@@ -12,23 +9,16 @@ Zhi Gao<sup>1</sup>, Xintong Zhang<sup>1</sup>, Rui Gao<sup>1,2</sup>, Kun Wu<su
 ★ Equal contribution  
 
 **Affiliations**  
-<sup>1</sup> Beijing Key Laboratory of Intelligent Information Technology,  
-School of Computer Science and Technology, Beijing Institute of Technology  
+<sup>1</sup> Beijing Key Laboratory of Intelligent Information Technology, School of Computer Science and Technology, Beijing Institute of Technology  
 
-<sup>2</sup> Guangdong Laboratory of Machine Perception and Intelligent Computing,  
-Shenzhen MSU-BIT University  
+<sup>2</sup> Guangdong Laboratory of Machine Perception and Intelligent Computing, Shenzhen MSU-BIT University  
 
 <sup>3</sup> Beijing Innovation Center of Humanoid Robotics  
-
 </div>
 
-
-
-
-Official implementation of the paper:  
-[**Long-Horizon Visual Imitation Learning via Plan and Code Reflection**](https://arxiv.org/abs/2509.05368)  
-
-📂 Dataset: [LongVILBench](https://huggingface.co/datasets/cq838/LongVILBench)  
+📄 Paper: [Long-Horizon Visual Imitation Learning via Plan and Code Reflection](https://arxiv.org/abs/2509.05368)  
+📊 Dataset: [LongVILBench](https://huggingface.co/datasets/cg838/LongVILBench)  
+🚀 Project: [LongVIL-Agent](https://longvil-agent.github.io/)  
 
 ---
 
