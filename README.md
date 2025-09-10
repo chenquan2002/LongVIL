@@ -45,7 +45,6 @@ LongVIL/data
 ├── level1/
 ├── level2/
 └── level3/
-
 ```
 ⚠️ The downloaded dataset (`level1, level2 and level3`) should **replace the `example` folder** inside `LongVIL/data/`.  
 
