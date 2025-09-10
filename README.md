@@ -3,7 +3,7 @@
 
 <div align="center">
 
-## LongVIL: Long-Horizon Visual Imitation Learning via Plan and Code Reflection
+# LongVIL: Long-Horizon Visual Imitation Learning via Plan and Code Reflection
 
 **Authors**  
 Quan Chen<sup>1,2★</sup>, Chenrui Shi<sup>1★</sup>, Qi Chen<sup>1,2</sup>, Yuwei Wu<sup>1</sup>,  
