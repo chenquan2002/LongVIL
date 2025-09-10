@@ -69,7 +69,7 @@ python evaluate.py
 Edit the following lines in `evaluate.py` according to the target level:
 ```python
 OUTPUT_ROOT = Path("./output/data/level2")
-GT_ROOT     = Path("./data/level2")
+GT_ROOT = Path("./data/level2")
 ```
 
 ### Metrics
