@@ -1,0 +1,50 @@
+<robot name="chili">
+  <link name="body">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 1.57 0"/> 
+      <geometry>
+        <mesh filename="chili_body.obj" scale="1 1 1"/>
+      </geometry>
+      <material name="Red">
+        <color rgba="0.811934 0.006419 0.002941 1.0"/> 
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.035 0.035 0.035"/> 
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.1"/> <!-- 设置质量为0.1单位 -->
+      <inertia ixx="0.001" iyy="0.001" izz="0.001" ixy="0" ixz="0" iyz="0"/> <!-- 简单的惯性矩阵 -->
+    </inertial>
+  </link>
+</robot>
+
+  <!-- <link name="stem">
+    <visual>
+      <geometry>
+        <mesh filename="chili_stem.obj" scale="1 1 1"/>
+      </geometry>
+      <material name="Green">
+        <color rgba="0.143275 0.800000 0.049616 1.0"/> <!-- 叶子绿色 -->
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.001 0.001 0.001"/> <!-- 使用更小的立方体作为简化的碰撞体 -->
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.02"/> <!-- 叶子的质量设置为较小的值 -->
+      <inertia ixx="0.0001" iyy="0.0001" izz="0.0001" ixy="0" ixz="0" iyz="0"/> <!-- 简单的惯性矩阵 -->
+    </inertial>
+  </link> -->
+
+  <!-- 将叶子连接到主体
+  <joint name="body_to_stem" type="fixed">
+    <parent link="body"/>
+    <child link="stem"/>
+    <origin xyz="-0.045 0.005 0.05" rpy="0 0 0"/>
+  </joint>
+</robot> -->

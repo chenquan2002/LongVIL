@@ -1,0 +1,65 @@
+{
+    "id": "level2_6_blockmanipulation_5",
+    "object_list": [
+        "blue hexagonalprism",
+        "green cuboid",
+        "purple triangularprism",
+        "red cylinder"
+    ],
+    "level": "2",
+    "action_sequences": [
+        "pick('green cuboid')",
+        "place('blue hexagonalprism','front')",
+        "pick('purple triangularprism')",
+        "place('blue hexagonalprism','left')",
+        "pick('red cylinder')",
+        "place('blue hexagonalprism','top')"
+    ],
+    "class": "blockmanipulation",
+    "positions": {
+        "blue hexagonalprism": {
+            "x": -0.1777065247297287,
+            "y": -0.6344751119613647,
+            "z": 0.029999999329447746
+        },
+        "green cuboid": {
+            "x": 0.06764812767505646,
+            "y": -0.5436041951179504,
+            "z": 0.029999999329447746
+        },
+        "purple triangularprism": {
+            "x": -0.17510880529880524,
+            "y": -0.4446121156215668,
+            "z": 0.029999999329447746
+        },
+        "red cylinder": {
+            "x": 0.08106832951307297,
+            "y": -0.30435678362846375,
+            "z": 0.029999999329447746
+        }
+    },
+    "pre_action_sequences": null,
+    "code": [
+        "green_cuboid_pos=getpos('green cuboid')",
+        "moveto(green_cuboid_pos)",
+        "pick()",
+        "blue_hexagonalprism_front=getpos('blue hexagonalprism','front')",
+        "moveto(blue_hexagonalprism_front)",
+        "place()",
+        "purple_triangularprism_pos=getpos('purple triangularprism')",
+        "moveto(purple_triangularprism_pos)",
+        "pick()",
+        "blue_hexagonalprism_left=getpos('blue hexagonalprism','left')",
+        "moveto(blue_hexagonalprism_left)",
+        "place()",
+        "red_cylinder_pos=getpos('red cylinder')",
+        "moveto(red_cylinder_pos)",
+        "pick()",
+        "blue_hexagonalprism_top=getpos('blue hexagonalprism','top')",
+        "moveto(blue_hexagonalprism_top)",
+        "place()"
+    ],
+    "task_horizon": 6,
+    "clean": "./level2_6_blockmanipulation_5_clean.mp4",
+    "complex": "./level2_6_blockmanipulation_5_complex.mp4"
+}
