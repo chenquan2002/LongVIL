@@ -1,4 +1,6 @@
 # LongVIL: Long-Horizon Visual Imitation Learning via Plan and Code Reflection
+
+
 <p align="center">
 
 **Authors**  
@@ -13,6 +15,7 @@ Xintong Zhang¹, Rui Gao¹², Kun Wu³, Yunde Jia²
 ³ Beijing Innovation Center of Humanoid Robotics  
 
 </p>
+
 
 
 Official implementation of the paper:  
