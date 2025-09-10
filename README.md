@@ -1,20 +1,27 @@
 # LongVIL: Long-Horizon Visual Imitation Learning via Plan and Code Reflection
 
 
-<p align="center">
+<div align="center">
+
+## LongVIL: Long-Horizon Visual Imitation Learning via Plan and Code Reflection
 
 **Authors**  
-Quan Chen¹²<sup>★</sup>, Chenrui Shi¹<sup>★</sup>, Qi Chen¹², Yuwei Wu¹, Zhi Gao¹,  
-Xintong Zhang¹, Rui Gao¹², Kun Wu³, Yunde Jia²  
+Quan Chen<sup>1,2★</sup>, Chenrui Shi<sup>1★</sup>, Qi Chen<sup>1,2</sup>, Yuwei Wu<sup>1</sup>,  
+Zhi Gao<sup>1</sup>, Xintong Zhang<sup>1</sup>, Rui Gao<sup>1,2</sup>, Kun Wu<sup>3</sup>, Yunde Jia<sup>2</sup>  
 
-<sup>★</sup> Equal contribution  
+★ Equal contribution  
 
 **Affiliations**  
-¹ Beijing Key Laboratory of Intelligent Information Technology, School of Computer Science and Technology, Beijing Institute of Technology  
-² Guangdong Laboratory of Machine Perception and Intelligent Computing, Shenzhen MSU-BIT University  
-³ Beijing Innovation Center of Humanoid Robotics  
+<sup>1</sup> Beijing Key Laboratory of Intelligent Information Technology,  
+School of Computer Science and Technology, Beijing Institute of Technology  
 
-</p>
+<sup>2</sup> Guangdong Laboratory of Machine Perception and Intelligent Computing,  
+Shenzhen MSU-BIT University  
+
+<sup>3</sup> Beijing Innovation Center of Humanoid Robotics  
+
+</div>
+
 
 
 
