@@ -32,7 +32,6 @@ This step **must be done before running the benchmark**.
 We provide a modified script (`get_frames.py`):  
 1. Install GroundingDINO, SAM, and SAM2 as in SeeDo.  
 2. Replace the original SeeDo script (`get_frame_by_hands.py`) with ours (`get_frames.py`).  
-3. For detailed setup instructions, see [docs/keyframe_extraction.md](docs/keyframe_extraction.md).  
 
 ---
 
