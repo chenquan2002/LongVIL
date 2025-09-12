@@ -93,7 +93,6 @@ We provide three metrics:
 2. **Step-wise Matching Score (SMS)** – prefix match  
 3. **Final State Accuracy (FSA)** – final state correctness  
 
-> EMA is computed via `evaluate.py`; SMS and FSA require manual/video evaluation.  
 
 ---
 
