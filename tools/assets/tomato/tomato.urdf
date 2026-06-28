@@ -1,0 +1,19 @@
+<robot name="tomato">
+  <link name="body">
+    <visual>
+      <origin xyz="0 0 0" rpy="1.57 0 0"/> 
+      <geometry>
+        <mesh filename="tomato.obj" scale="0.025 0.025 0.025"/>
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.04 0.04 0.04"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="0.001" iyy="0.001" izz="0.001" ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+  </link>
+</robot>

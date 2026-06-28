@@ -1,0 +1,10 @@
+{
+    "action_sequences": [
+        "A hand picks up corn and then places it into the glass.",
+        "A hand picks up corn and then places it to the right of the glass."
+    ],
+    "code": [
+        "corn_pos = getpos('corn')\nmoveto(corn_pos)\npick()\nglass_into = getpos('glass', 'into')\nmoveto(glass_into)\nplace()",
+        "corn_pos = getpos('corn')\nmoveto(corn_pos)\npick()\nglass_right = getpos('glass', 'right')\nmoveto(glass_right)\nplace()"
+    ]
+}

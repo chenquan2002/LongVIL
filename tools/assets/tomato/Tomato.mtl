@@ -1,0 +1,22 @@
+# Blender MTL File: 'Tomato.blend'
+# Material Count: 2
+
+newmtl Material
+Ns 264.705882
+Ka 0.000000 0.000000 0.000000
+Kd 0.375748 0.019062 0.004705
+Ks 1.000000 1.000000 1.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Tomato_texture.tga
+
+newmtl Material.001
+Ns 901.960784
+Ka 0.000000 0.000000 0.000000
+Kd 0.011381 0.134359 0.000000
+Ks 0.048077 0.048077 0.048077
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Tomato_texture.tga

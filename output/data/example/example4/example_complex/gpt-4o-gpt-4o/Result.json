@@ -1,0 +1,20 @@
+{
+    "action_sequences": [
+        "A hand picks up the orange cube and then places it on top of the green cuboid.",
+        "A hand picks up the blue hexagonal prism and then places it on top of the orange cube.",
+        "A hand picks up the purple triangular prism and then places it on top of the blue hexagonal prism.",
+        "A hand picks up the purple triangular prism and then places it to the right of the blue hexagonal prism.",
+        "A hand picks up the blue hexagonal prism and then places it to the right of the purple triangular prism.",
+        "A hand picks up the orange cube and then places it on top of the blue hexagonal prism.",
+        "A hand picks up the green cuboid and then places it on top of the orange cube."
+    ],
+    "code": [
+        "orange_cube_pos = getpos('orange cube')\nmoveto(orange_cube_pos)\npick()\ngreen_cuboid_top = getpos('green cuboid', 'top')\nmoveto(green_cuboid_top)\nplace()",
+        "blue_hexagonalprism_pos = getpos('blue hexagonalprism')\nmoveto(blue_hexagonalprism_pos)\npick()\norange_cube_top = getpos('orange cube', 'top')\nmoveto(orange_cube_top)\nplace()",
+        "purple_triangularprism_pos = getpos('purple triangularprism')\nmoveto(purple_triangularprism_pos)\npick()\nblue_hexagonalprism_top = getpos('blue hexagonalprism', 'top')\nmoveto(blue_hexagonalprism_top)\nplace()",
+        "purple_triangularprism_pos = getpos('purple triangularprism')\nmoveto(purple_triangularprism_pos)\npick()\nblue_hexagonalprism_right = getpos('blue hexagonalprism', 'right')\nmoveto(blue_hexagonalprism_right)\nplace()",
+        "blue_hexagonalprism_pos = getpos('blue hexagonalprism')\nmoveto(blue_hexagonalprism_pos)\npick()\npurple_triangularprism_right = getpos('purple triangularprism', 'right')\nmoveto(purple_triangularprism_right)\nplace()",
+        "orange_cube_pos = getpos('orange cube')\nmoveto(orange_cube_pos)\npick()\nblue_hexagonalprism_top = getpos('blue hexagonalprism', 'top')\nmoveto(blue_hexagonalprism_top)\nplace()",
+        "green_cuboid_pos = getpos('green cuboid')\nmoveto(green_cuboid_pos)\npick()\norange_cube_top = getpos('orange cube', 'top')\nmoveto(orange_cube_top)\nplace()"
+    ]
+}

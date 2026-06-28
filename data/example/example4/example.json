@@ -1,0 +1,97 @@
+{
+    "id": "level3_14_blockmanipulation_5",
+    "object_list": [
+        "orange cube",
+        "blue hexagonalprism",
+        "purple triangularprism",
+        "green cuboid"
+    ],
+    "level": "3",
+    "action_sequences": [
+        "pick('orange cube')",
+        "place('green cuboid','top')",
+        "pick('blue hexagonalprism')",
+        "place('orange cube','top')",
+        "pick('purple triangularprism')",
+        "place('blue hexagonalprism','top')",
+        "pick('purple triangularprism')",
+        "place('green cuboid','right')",
+        "pick('blue hexagonalprism')",
+        "place('purple triangularprism','right')",
+        "pick('orange cube')",
+        "place('blue hexagonalprism','top')",
+        "pick('green cuboid')",
+        "place('orange cube','top')"
+    ],
+    "class": "blockmanipulation",
+    "positions": {
+        "orange cube": {
+            "x": -0.10530620813369751,
+            "y": -0.48104095458984375,
+            "z": 0.029999999329447746
+        },
+        "blue hexagonalprism": {
+            "x": -0.06798376142978668,
+            "y": -0.3082515299320221,
+            "z": 0.029999999329447746
+        },
+        "purple triangularprism": {
+            "x": 0.1415155678987503,
+            "y": -0.5310507416725159,
+            "z": 0.029999999329447746
+        },
+        "green cuboid": {
+            "x": -0.11742229759693146,
+            "y": -0.642375648021698,
+            "z": 0.029999999329447746
+        }
+    },
+    "pre_action_sequences": null,
+    "code": [
+        "orange_cube_pos=getpos('orange cube')",
+        "moveto(orange_cube_pos)",
+        "pick()",
+        "green_cuboid_top=getpos('green cuboid','top')",
+        "moveto(green_cuboid_top)",
+        "place()",
+        "blue_hexagonalprism_pos=getpos('blue hexagonalprism')",
+        "moveto(blue_hexagonalprism_pos)",
+        "pick()",
+        "orange_cube_top=getpos('orange cube','top')",
+        "moveto(orange_cube_top)",
+        "place()",
+        "purple_triangularprism_pos=getpos('purple triangularprism')",
+        "moveto(purple_triangularprism_pos)",
+        "pick()",
+        "blue_hexagonalprism_top=getpos('blue hexagonalprism','top')",
+        "moveto(blue_hexagonalprism_top)",
+        "place()",
+        "purple_triangularprism_pos=getpos('purple triangularprism')",
+        "moveto(purple_triangularprism_pos)",
+        "pick()",
+        "green_cuboid_right=getpos('green cuboid','right')",
+        "moveto(green_cuboid_right)",
+        "place()",
+        "blue_hexagonalprism_pos=getpos('blue hexagonalprism')",
+        "moveto(blue_hexagonalprism_pos)",
+        "pick()",
+        "purple_triangularprism_right=getpos('purple triangularprism','right')",
+        "moveto(purple_triangularprism_right)",
+        "place()",
+        "orange_cube_pos=getpos('orange cube')",
+        "moveto(orange_cube_pos)",
+        "pick()",
+        "blue_hexagonalprism_top=getpos('blue hexagonalprism','top')",
+        "moveto(blue_hexagonalprism_top)",
+        "place()",
+        "green_cuboid_pos=getpos('green cuboid')",
+        "moveto(green_cuboid_pos)",
+        "pick()",
+        "orange_cube_top=getpos('orange cube','top')",
+        "moveto(orange_cube_top)",
+        "place()"
+    ],
+    "task_horizon": 14,
+    "clean": "./example_clean.mp4",
+    "complex": "./example_complex.mp4"
+}

@@ -1,0 +1,13 @@
+# Blender 3.6.1 MTL File: 'None'
+# www.blender.org
+
+newmtl Material_0
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd 98eb01aee41e_a_square_shaped_gla_texture_kd.jpg
+map_Ns 98eb01aee41e_a_square_shaped_gla_roughness.jpg
+map_refl 98eb01aee41e_a_square_shaped_gla_metallic.jpg

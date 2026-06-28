@@ -1,0 +1,16 @@
+{
+    "action_sequences": [
+        "A hand picks up the eggplant and then places it into the white bowl.",
+        "A hand picks up the carrot and then places it into the box.",
+        "A hand picks up the red cylinder and then places it to the right of the purple triangular prism.",
+        "A hand picks up the purple triangular prism and then places it to the left of the red cylinder.",
+        "A hand picks up the orange cube and then places it to the right of the red cylinder."
+    ],
+    "code": [
+        "eggplant_pos = getpos('eggplant')\nmoveto(eggplant_pos)\npick()\nwhite_bowl_into = getpos('white bowl', 'into')\nmoveto(white_bowl_into)\nplace()",
+        "carrot_pos = getpos('carrot')\nmoveto(carrot_pos)\npick()\nbox_into = getpos('box', 'into')\nmoveto(box_into)\nplace()",
+        "red_cylinder_pos = getpos('red cylinder')\nmoveto(red_cylinder_pos)\npick()\npurple_triangularprism_right = getpos('purple triangularprism', 'right')\nmoveto(purple_triangularprism_right)\nplace()",
+        "purple_triangularprism_pos = getpos('purple triangularprism')\nmoveto(purple_triangularprism_pos)\npick()\nred_cylinder_left = getpos('red cylinder', 'left')\nmoveto(red_cylinder_left)\nplace()",
+        "**Analysis:**\n- \"the orange cube\" \u2192 `orange cube` (from object_list)\n- \"to the right of the red cylinder\" \u2192 reference object: `red cylinder`, preposition: `right`\n\n**Expected Output:**\n\norange_cube_pos = getpos('orange cube')\nmoveto(orange_cube_pos)\npick()\nred_cylinder_right = getpos('red cylinder', 'right')\nmoveto(red_cylinder_right)\nplace()"
+    ]
+}

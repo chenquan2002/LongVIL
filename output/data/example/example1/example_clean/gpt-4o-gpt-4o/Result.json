@@ -1,0 +1,14 @@
+{
+    "action_sequences": [
+        "A hand picks up the blue hexagonalprism and then places it into the white bowl.",
+        "A hand picks up the green cuboid and then places it in front of the purple triangularprism.",
+        "A hand picks up the purple triangularprism and then places it to the left of the green cuboid.",
+        "A hand picks up the red cylinder and then places it to the right of the white bowl."
+    ],
+    "code": [
+        "blue_hexagonalprism_pos = getpos('blue hexagonalprism')\nmoveto(blue_hexagonalprism_pos)\npick()\nwhite_bowl_into = getpos('white bowl', 'into')\nmoveto(white_bowl_into)\nplace()",
+        "green_cuboid_pos = getpos('green cuboid')\nmoveto(green_cuboid_pos)\npick()\npurple_triangularprism_front = getpos('purple triangularprism', 'front')\nmoveto(purple_triangularprism_front)\nplace()",
+        "purple_triangularprism_pos = getpos('purple triangularprism')\nmoveto(purple_triangularprism_pos)\npick()\ngreen_cuboid_left = getpos('green cuboid', 'left')\nmoveto(green_cuboid_left)\nplace()",
+        "red_cylinder_pos = getpos('red cylinder')\nmoveto(red_cylinder_pos)\npick()\nwhite_bowl_right = getpos('white bowl', 'right')\nmoveto(white_bowl_right)\nplace()"
+    ]
+}

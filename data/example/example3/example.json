@@ -1,0 +1,45 @@
+{
+    "id": "level1_4_vegetablesorting_5",
+    "object_list": [
+        "corn",
+        "glass"
+    ],
+    "level": "1",
+    "action_sequences": [
+        "pick('corn')",
+        "place('glass','into')",
+        "pick('corn')",
+        "place('glass','right')"
+    ],
+    "class": "vegetablesorting",
+    "positions": {
+        "corn": {
+            "x": -0.04571866616606712,
+            "y": -0.38508105278015137,
+            "z": 0.029999999329447746
+        },
+        "glass": {
+            "x": 0.12170629948377609,
+            "y": -0.39778831601142883,
+            "z": 0.019999999552965164
+        }
+    },
+    "pre_action_sequences": null,
+    "code": [
+        "corn_pos=getpos('corn')",
+        "moveto(corn_pos)",
+        "pick()",
+        "glass_into=getpos('glass','into')",
+        "moveto(glass_into)",
+        "place()",
+        "corn_pos=getpos('corn')",
+        "moveto(corn_pos)",
+        "pick()",
+        "glass_right=getpos('glass','right')",
+        "moveto(glass_right)",
+        "place()"
+    ],
+    "task_horizon": 4,
+    "clean": "./example_clean.mp4",
+    "complex": "./example_complex.mp4"
+}

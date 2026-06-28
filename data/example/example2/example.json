@@ -1,0 +1,99 @@
+{
+    "id": "level3_10_blockmanipulation_3",
+    "object_list": [
+        "eggplant",
+        "carrot",
+        "red cylinder",
+        "purple triangularprism",
+        "orange cube",
+        "white bowl",
+        "box"
+    ],
+    "level": "3",
+    "action_sequences": [
+        "pick('eggplant')",
+        "place('white bowl','into')",
+        "pick('carrot')",
+        "place('box','into')",
+        "pick('red cylinder')",
+        "place('box','front')",
+        "pick('purple triangularprism')",
+        "place('red cylinder','left')",
+        "pick('orange cube')",
+        "place('red cylinder','top')"
+    ],
+    "class": "blockmanipulation",
+    "positions": {
+        "eggplant": {
+            "x": -0.12575450539588928,
+            "y": -0.43820518255233765,
+            "z": 0.029999999329447746
+        },
+        "carrot": {
+            "x": -0.028433550149202347,
+            "y": -0.6845365166664124,
+            "z": 0.029999999329447746
+        },
+        "red cylinder": {
+            "x": 0.06925591081380844,
+            "y": -0.5178520083427429,
+            "z": 0.029999999329447746
+        },
+        "purple triangularprism": {
+            "x": -0.19351866841316223,
+            "y": -0.695314347743988,
+            "z": 0.029999999329447746
+        },
+        "orange cube": {
+            "x": 0.09160107374191284,
+            "y": -0.30768588185310364,
+            "z": 0.029999999329447746
+        },
+        "white bowl": {
+            "x": -0.39500001072883606,
+            "y": -0.550000011920929,
+            "z": 0.019999999552965164
+        },
+        "box": {
+            "x": 0.44999998807907104,
+            "y": -0.4000000059604645,
+            "z": 0.0
+        }
+    },
+    "pre_action_sequences": null,
+    "code": [
+        "eggplant_pos=getpos('eggplant')",
+        "moveto(eggplant_pos)",
+        "pick()",
+        "white_bowl_into=getpos('white bowl','into')",
+        "moveto(white_bowl_into)",
+        "place()",
+        "carrot_pos=getpos('carrot')",
+        "moveto(carrot_pos)",
+        "pick()",
+        "box_into=getpos('box','into')",
+        "moveto(box_into)",
+        "place()",
+        "red_cylinder_pos=getpos('red cylinder')",
+        "moveto(red_cylinder_pos)",
+        "pick()",
+        "box_front=getpos('box','front')",
+        "moveto(box_front)",
+        "place()",
+        "purple_triangularprism_pos=getpos('purple triangularprism')",
+        "moveto(purple_triangularprism_pos)",
+        "pick()",
+        "red_cylinder_left=getpos('red cylinder','left')",
+        "moveto(red_cylinder_left)",
+        "place()",
+        "orange_cube_pos=getpos('orange cube')",
+        "moveto(orange_cube_pos)",
+        "pick()",
+        "red_cylinder_top=getpos('red cylinder','top')",
+        "moveto(red_cylinder_top)",
+        "place()"
+    ],
+    "task_horizon": 10,
+    "clean": "./example_clean.mp4",
+    "complex": "./example_complex.mp4"
+}

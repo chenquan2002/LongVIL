@@ -1,0 +1,18 @@
+#
+# Wavefront material file
+# Converted by Meshlab Group
+#
+
+
+#
+# Wavefront material file for glass bowl
+#
+
+newmtl material_0
+Ka 0.2 0.2 0.2      
+Kd 0.9 0.9 0.9        
+Ks 1.0 1.0 1.0      
+Ns 300                 
+d 0.3              
+illum 2              
+map_Kd 98eb01aee41e_a_square_shaped_gla_texture_kd.jpg

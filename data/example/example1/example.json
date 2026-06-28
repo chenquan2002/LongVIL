@@ -1,0 +1,79 @@
+{
+    "id": "level2_8_blockmanipulation_2",
+    "object_list": [
+        "blue hexagonalprism",
+        "green cuboid",
+        "purple triangularprism",
+        "red cylinder",
+        "white bowl"
+    ],
+    "level": "2",
+    "action_sequences": [
+        "pick('blue hexagonalprism')",
+        "place('white bowl','into')",
+        "pick('green cuboid')",
+        "place('white bowl','behind')",
+        "pick('purple triangularprism')",
+        "place('white bowl','left')",
+        "pick('red cylinder')",
+        "place('white bowl','right')"
+    ],
+    "class": "blockmanipulation",
+    "positions": {
+        "blue hexagonalprism": {
+            "x": -0.19688807427883148,
+            "y": -0.532176673412323,
+            "z": 0.029999999329447746
+        },
+        "green cuboid": {
+            "x": -0.1288105547428131,
+            "y": -0.3442358374595642,
+            "z": 0.029999999329447746
+        },
+        "purple triangularprism": {
+            "x": 0.1352776736021042,
+            "y": -0.43421444296836853,
+            "z": 0.029999999329447746
+        },
+        "red cylinder": {
+            "x": 0.011086584068834782,
+            "y": -0.5852066874504089,
+            "z": 0.029999999329447746
+        },
+        "white bowl": {
+            "x": 0.16010066866874695,
+            "y": -0.6902498006820679,
+            "z": 0.019999999552965164
+        }
+    },
+    "pre_action_sequences": null,
+    "code": [
+        "blue_hexagonalprism_pos=getpos('blue hexagonalprism')",
+        "moveto(blue_hexagonalprism_pos)",
+        "pick()",
+        "white_bowl_into=getpos('white bowl','into')",
+        "moveto(white_bowl_into)",
+        "place()",
+        "green_cuboid_pos=getpos('green cuboid')",
+        "moveto(green_cuboid_pos)",
+        "pick()",
+        "white_bowl_behind=getpos('white bowl','behind')",
+        "moveto(white_bowl_behind)",
+        "place()",
+        "purple_triangularprism_pos=getpos('purple triangularprism')",
+        "moveto(purple_triangularprism_pos)",
+        "pick()",
+        "white_bowl_left=getpos('white bowl','left')",
+        "moveto(white_bowl_left)",
+        "place()",
+        "red_cylinder_pos=getpos('red cylinder')",
+        "moveto(red_cylinder_pos)",
+        "pick()",
+        "white_bowl_right=getpos('white bowl','right')",
+        "moveto(white_bowl_right)",
+        "place()"
+    ],
+    "task_horizon": 8,
+    "clean": "./example_clean.mp4",
+    "complex": "./example_complex.mp4"
+}

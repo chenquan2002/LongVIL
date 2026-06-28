@@ -1,0 +1,50 @@
+<robot name="carrot">
+  <!-- 胡萝卜主体 -->
+  <link name="body">
+    <visual>
+      <geometry>
+        <mesh filename="carrot_body.obj" scale="0.02 0.02 0.02"/>
+      </geometry>
+      <material name="Orange">
+        <color rgba="0.846874 0.283148 0.015209 1.0"/> <!-- 胡萝卜橙色 -->
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.04 0.04 0.04"/> <!-- 使用立方体作为简化的碰撞体 -->
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.1"/> <!-- 设置质量为0.1单位 -->
+      <inertia ixx="0.001" iyy="0.001" izz="0.001" ixy="0" ixz="0" iyz="0"/> <!-- 简单的惯性矩阵 -->
+    </inertial>
+  </link>
+
+  <!-- 胡萝卜叶子 -->
+  <link name="leaf">
+    <visual>
+      <geometry>
+        <mesh filename="carrot_leaf.obj" scale="0.03 0.03 0.03"/>
+      </geometry>
+      <material name="Green">
+        <color rgba="0.143275 0.800000 0.049616 1.0"/> <!-- 叶子绿色 -->
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.02 0.02 0.05"/> <!-- 使用更小的立方体作为简化的碰撞体 -->
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.02"/> <!-- 叶子的质量设置为较小的值 -->
+      <inertia ixx="0.0001" iyy="0.0001" izz="0.0001" ixy="0" ixz="0" iyz="0"/> <!-- 简单的惯性矩阵 -->
+    </inertial>
+  </link>
+
+  <!-- 将叶子连接到主体 -->
+  <joint name="body_to_leaf" type="fixed">
+    <parent link="body"/>
+    <child link="leaf"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+</robot>
