@@ -462,4 +462,3 @@ dependencies:
       - yapf==0.43.0
       - yarl==1.18.0
       - zhipuai==2.1.5.20241204
-prefix: /home/chenquan/miniconda3/envs/longvil_backup1
